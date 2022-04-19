@@ -10,4 +10,12 @@ header{
     margin: 0; padding:0;
 }
 
-
+.navbar-dark .navbar-nav .h6v{
+    color: rgb(0, 140, 0);
+}
+.navbar-dark .navbar-nav .h6v:hover{
+    color: rgb(198, 255, 198);
+}
+.navbar-dark .navbar-nav .h6v:focus{
+    color: rgb(0, 180, 0);
+}
