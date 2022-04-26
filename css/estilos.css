@@ -43,14 +43,35 @@ header{
     padding: 1% 0 1% 0;
 }
 .boxPpal{
-    padding: 15% 0 10% 0;
+    padding: 13% 0 10% 0;
     text-align: right; margin: 0;
 }
 .boxPpal p{
-    line-height: 175%;
+    line-height: 145%;
+    font-size: 0.9rem; 
 }
 
 .txOradores{
-    line-height: 175%;
-    font-size: 0.8rem; 
+    line-height: 200%;
+    font-size: 0.6rem; 
 }
+
+.pad5per{
+    padding: 5%;
+}
+
+.padl10per{
+    padding-left: 10%;
+}
+
+.txReduc{
+    padding-left: 0;
+}
+.txReduc p{
+    font-size: 0.7rem; 
+}
+.txReduc button{
+    font-size: 0.7rem; 
+    text-align: center;
+}
+
