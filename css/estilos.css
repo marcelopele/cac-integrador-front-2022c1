@@ -3,16 +3,20 @@
 }
 
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/ba1.jpg');
-    background-repeat: no-repeat; background-size: 100% 115%; background-position: center;
     color: white; text-align: right; 
     margin: 0;
+}
+header.ind{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/ba1.jpg');
+    background-repeat: no-repeat; background-size: 100% 115%; background-position: center;
 }
 
 .containerGris{
     background-color: #383838;
 }
-
+footer{
+    background-color: rgb(32,81,109);
+}
 .rounded-pill{width:6rem;}
 
 .navbar-dark .navbar-nav .h6v{
@@ -60,10 +64,6 @@ header{
     padding: 5%;
 }
 
-.padl10per{
-    padding-left: 10%;
-}
-
 .txReduc{
     padding-left: 0;
 }
@@ -75,3 +75,15 @@ header{
     text-align: center;
 }
 
+.foot{
+    text-align: center;
+}
+.foot a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.foot a:hover{
+    color: aqua;
+}
