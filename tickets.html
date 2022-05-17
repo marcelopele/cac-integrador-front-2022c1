@@ -23,7 +23,7 @@
         
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active h6" href="index.html">La conferencia</a>
+                                <a class="nav-link h6" href="index.html">La conferencia</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link h6" href="index.html">Los oradores</a>
@@ -44,48 +44,98 @@
         </div>
     </header>
 
-    <div class="container-fluid p-3" style="width:60%">
-        <div class="row" style="color:black;">
+    <div class="container-fluid p-3" style="width:63%">
+        <div class="row" style="color:black; text-align: center;">
             <div class="col">
-                <div class="row">
-                    <div class="col" style="border: groove;">
-                        <h2>Estudiante</h2>
+                <div class="row cuadrosTk">
+                    <div class="col col_a">
+                        <p class="h5">Estudiante</p>
                         <p>Tienen un descuento</p>
-                        <p>80%</p>
-                        <p>*presentar documentación</p>
+                        <p class="h6">80%</p>
+                        <p class="small">*presentar documentación</p>
                     </div>
-                    <div class="col" style="border: groove;">
-                        <h2>Trainee</h2>
+                    <div class="col col_b">
+                        <p class="h5">Trainee</p>
                         <p>Tienen un descuento</p>
-                        <p>50%</p>
-                        <p>*presentar documentación</p>
+                        <p class="h6">50%</p>
+                        <p class="small">*presentar documentación</p>
                     </div>
-                    <div class="col" style="border: groove;">
-                        <h2>Junior</h2>
+                    <div class="col col_c">
+                        <p class="h5">Junior</p>
                         <p>Tienen un descuento</p>
-                        <p>15%</p>
-                        <p>*presentar documentación</p>
+                        <p class="h6">15%</p>
+                        <p class="small">*presentar documentación</p>
                     </div>
                 </div>
-                <div class="row">
-                    <p>VENTA</p>
-                    <p>VALOR DE TICKET $</p>
-                    <p id="pre">200</p>
+                <div class="row titTk">
+                    <p class="small">VENTA</p>
+                    <p class="h2">VALOR DE TICKET $ 200</p>
                 </div>
-                <form action="">
-                    <input type="text" name="nom" id="nom" style="width: 48%;">
-                    <input type="text" name="ape" id="ape" style="width: 48%;">
-                    <input type="text" name="cor" id="cor" style="width: 99%;">
-                    <input type="number" name="can" id="can" style="width: 48%;">
-                    <select name="cat" id="cat" style="width: 48%;">
-                        <option value="E">Estudiante</option>
-                        <option value="T">Trainee</option>
-                        <option value="J">Junior</option>
-                    </select>
-                    <input type="text" name="tot" id="tot" style="width: 99%;" value="Total a Pagar: $">
-    
-                    <button type="reset" class="btn btn-success">Borrar</button>
-                    <button type="button" class="btn btn-success" id="btn1">Resumen</button>
+                <form action="" class="formTk">
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <input type="text" name="nom" placeholder="Nombre" id="nom">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <input type="text" name="ape" placeholder="Apellido" id="ape">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <input type="text" name="cor" placeholder="Correo" id="cor">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <label for="can" class="form-label">Cantidad</label>
+                            </div>
+                            <div class="row">
+                                <input type="number" name="can" placeholder="Cantidad" id="can">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <label for="cat" class="form-label">Categoria</label>
+                                <select name="cat" id="cat">
+                                    <option value="E">Estudiante</option>
+                                    <option value="T">Trainee</option>
+                                    <option value="J">Junior</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div id="tot" class="verTotal">Total a Pagar: $</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <button type="reset" class="btn" id="btn0">Borrar</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <button type="button" class="btn" id="btn1">Resumen</button>
+                            </div>
+                        </div>
+                    </div>
+
     
                 </form>
             </div>

@@ -87,3 +87,66 @@ footer{
 .foot a:hover{
     color: aqua;
 }
+
+div.titTk {
+    padding:0;
+    margin: 0.4rem 1rem 1rem 1rem;
+}
+div.titTk p{
+    padding:0;
+    margin: 0;
+}
+
+
+div.cuadrosTk div.col{
+    border-style: solid;
+    border-width: thin;
+    padding: 1rem;
+    margin: 0.2rem;
+}
+div.cuadrosTk div.col_a{
+    border-color: rgb(24,130,249);
+}
+div.cuadrosTk div.col_b{
+    border-color: rgb(43,165,182);
+}
+div.cuadrosTk div.col_c{
+    border-color: rgb(253,188,58);
+}
+
+
+form.formTk div.col{
+    padding:0 1rem;
+}
+form.formTk input, form.formTk select{
+    padding:0.4rem 0.8rem ;
+    margin: 0.4rem;
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+}
+form.formTk div.verTotal{
+    background-color: rgb(205,230,253);
+    padding:0.8rem 1.2rem ;
+    margin: 1.4rem 0.4rem;
+    text-align:left;
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(163,207,253);
+    color:  rgb(8,67,130);
+}
+form.formTk button{
+    background-color: rgb(153,201,81);
+    color: white;
+    border: hidden;
+    font-weight: bold;
+    padding:0.4rem 0.8rem ;
+    margin: 0.4rem;
+}
+form.formTk label{
+    text-align: left;
+    padding:0.4rem 0 0 0;
+    margin: 0.4rem;
+}
